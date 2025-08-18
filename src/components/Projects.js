@@ -25,7 +25,7 @@ const Projects = () => {
         </>
       ),
       codeLink: "https://github.com/Erishprajapati/EcommerceAPI",
-      liveLink: "https://ecommerceapi-production-8d3a.up.railway.app/docs"
+      liveLink: "https://ecommerce-5ti5.onrender.com/docs"
     },
     {
       title: "Hospital Management System",
