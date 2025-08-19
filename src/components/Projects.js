@@ -38,6 +38,18 @@ const Projects = () => {
       ),
       codeLink: "https://github.com/Erishprajapati/hospital-management-system1",
       liveLink: "https://hospital-management-system1-o63yod5j9-erishprajatis-projects.vercel.app/api/v1/login_view"
+    },
+    {
+      title: "Peak Times",
+      desc: (
+        <>
+          Web applications that helps tourist and locals to explore crowd at different places of district
+          Built with <strong>Django</strong>, <strong>PostgreSQL</strong>, and <strong>Jinja Template</strong>.
+          Implemented <strong>foreign key constraints</strong> and <strong>data integrity checks</strong> for scalability and reliability.
+        </>
+      ),
+      codeLink: "https://github.com/Erishprajapati/Semester-Six/tree/main/backend",
+      
     }
   ];
 
