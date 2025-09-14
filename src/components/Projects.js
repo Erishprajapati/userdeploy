@@ -4,6 +4,18 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      title: "Project Management API",
+      desc: (
+        <>
+          Full-featured project management system with <strong>JWT authentication</strong>, task assignment, and role-based access. 
+          Built with <strong>FastAPI (async)</strong>, <strong>Render PostgreSQL</strong>, and <strong>SQLAlchemy ORM</strong>. 
+          Optimized queries reduced response time by 60%. Designed with clean REST endpoints and efficient task tracking.
+        </>
+      ),
+      codeLink: "https://github.com/Erishprajapati/API-deployment",
+      liveLink: "https://api-deployment-6jj9.onrender.com/swagger/"
+    },
+    {
       title: "Library Management API",
       desc: (
         <>
