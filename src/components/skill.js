@@ -11,6 +11,8 @@ const Skills = () => {
     { name: "REST APIs", icon: "api", color: "#9b59b6" },
     { name: "JWT", icon: "jsonwebtokens", color: "#e67e22" },
     { name: "Git", icon: "git", color: "#f34f29" },
+    { name: "Docker", icon: "docker", color: "#2496ED" },
+  { name: "JavaScript", icon: "javascript", color: "#F7DF1E" },
     { name: "Postman", icon: "postman", color: "#ff6c37" },
   ];
 

@@ -5,47 +5,32 @@ const Header = () => {
   return (
     <header className="header" id="home">
       <div className="header-container">
-        <div className="header-content">
-          <h1>Irish Prajapati</h1>
-          <h2>
-            Backend Developer |{' '}
-            <a
-              href="https://www.python.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: 'inherit', textDecoration: 'underline' }}
-            >
-              Python
-            </a>{' '}
-            •{' '}
-            <a
-              href="https://fastapi.tiangolo.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: 'inherit', textDecoration: 'underline' }}
-            >
-              FastAPI
-            </a>{' '} •{' '}
-            <a
-              href="https://docs.djangoproject.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: 'inherit', textDecoration: 'underline' }}
-            >
-              Django
-            </a>
-          </h2>
-          <br />
-          <p>
-            Designing high-performance APIs and resilient database systems that scale.
-            Focused on clean architecture, async workflows, and production-grade backend solutions.
-          </p>
+        <div className="header-top">
+          <div className="header-title-section">
+            <h1>Irish Prajapati</h1>
+            <h2>Backend Developer</h2>
+          </div>
+          <div className="profile-image-container">
+            <img
+              src="/profile.jpg"
+              alt="Irish Prajapati"
+              className="profile-image"
+            />
+          </div>
         </div>
-        <div className="header-image">
-          <img
-            src="/profile.jpg"  // ✅ Correct path
-            alt="Irish Prajapati"
-          />
+        <div className="header-description">
+          <p>
+            I'm a <em>backend developer</em> and a <em>problem solver</em> who loves crafting scalable and efficient digital systems. 
+            My approach is shaped by clean architecture, focusing on performance, reliability, and maintainable code.
+          </p>
+          <p>
+            I enjoy self-driven projects that challenge me to research, build, and improve. 
+            Whether coding APIs or designing database systems, I'm always exploring new tools and better solutions.
+          </p>
+          <p>
+            This is my personal space to build, break, and share. 
+            I also write about engineering and backend development, keeping things simple and practical.
+          </p>
         </div>
       </div>
     </header>
